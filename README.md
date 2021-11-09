@@ -23,7 +23,7 @@
 ### Back
 
   - Extend the users api so it can support these basic operations:
-    - sign-in endpoint which generates a [JWT](https://jwt.io/) with the use credentials and send it to the user.
+    - sign-in endpoint which generates a [JWT](https://jwt.io/) with the user credentials and send it to the user.
     - sign-up endpoint
     - sign-out endpoint
     - edit user endpoint which will be only accessible with the relevant user’s JWT.
