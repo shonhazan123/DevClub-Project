@@ -34,7 +34,7 @@ const styles = {
   },
 };
 
-export default async function UserProfile() {
+export default function UserProfile() {
   const [username, updateUser] = useState("");
   const [password, updatePassword] = useState("");
   const [user, addNewUser] = useState([]);
